@@ -206,7 +206,7 @@ pre {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0px;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -337,6 +337,8 @@ pre {
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
+  float: left;
+  margin-left: 0px;
 }
 .site-description {
   font-size: 14px;
@@ -357,6 +359,11 @@ pre {
   font-weight: 300;
   padding-top: 5em;
 }
+
+
+
+
+
 .page-title {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -378,6 +385,7 @@ pre {
     &:not(:last-child) {
       margin-right: 20px;
     }
+
   }
   @include media-query($on-palm) {
     position: absolute;
