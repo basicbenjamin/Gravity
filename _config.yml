@@ -9,7 +9,7 @@
 title: Basic Benjamin
 email: basicbenjamin@gmail.com
 description: sad sad life
-# baseurl: "https://basicbenjamin.github.io/Gravity" # the subpath of your site, e.g. /blog
+baseurl: "https://basicbenjamin.github.io/Gravity" # the subpath of your site, e.g. /blog
 url: "https://thefamilyfarm.in/Gravity" # the base hostname & protocol for your site
 twitter_username: basicbenjamin
 github_username:  basicbenjamin
